@@ -134,4 +134,82 @@ body {
 }
 .text-pic-box .text-pic-box-pic {
 	float: right;
+}
 /* content end*/
+
+/* course list start*/
+#courses {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:200px;
+	text-align:left;
+	float:left;
+	color:#666;
+}
+#content_body{
+	float:left;
+}
+#list_title{
+	font-size:18px;
+	padding:15px 0 15px 10px;
+	border-bottom:1px solid #e3e3e3;
+	color:#000;
+}
+#courses div.cat_root:not(.parent_item){
+	padding-top:15px;
+	padding-left:10px;
+	font-size:13px;
+	font-weight:bold;
+}
+.parent_item{
+	margin-top:15px;
+	padding:8px 0 8px 10px;
+	font-size:16px;
+}
+#courses .list_lvl1{
+	font-size:11px;
+	list-style:none;
+	padding:3px 0 3px 20px;
+	margin:0px;
+}
+#courses .list_lvl2{
+	font-size:11px;
+	list-style:none;
+	padding:3px 0 3px 30px;
+	margin:0px;
+}
+#courses div a{
+	text-decoration: none;
+}
+#courses .list_lvl2 a{
+	width:100%;
+	height:100%;
+	display: block;
+	color:#666;
+	text-decoration: none;
+}
+#courses ul{
+	padding-left:0px;
+	margin:0px;
+}
+#courses ul li{
+	font-size:11px;
+	list-style:none;
+	padding:3px 0 3px 20px;
+	margin:0px;
+}
+.highlight{
+	cursor:pointer;
+}
+#credit{
+	height:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+	font-size:18px;
+	font-weight:bold;
+	color:#666;
+}
+#credit_a{
+	color:#666;
+}
+/* course list end*/
