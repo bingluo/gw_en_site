@@ -26,6 +26,7 @@ body {
 	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 	float: left;
+	cursor: pointer;
 }
 #gw_en_title {
 	float: left;
@@ -145,8 +146,9 @@ body {
 	float:left;
 	color:#666;
 }
-#content_body{
+.sider_content{
 	float:left;
+	width:730px;
 }
 #list_title{
 	font-size:18px;
@@ -211,6 +213,28 @@ body {
 }
 #credit_a{
 	color:#666;
+}
+
+.table{
+	border-collapse: collapse;
+	boder:none;
+}
+.table tr th{
+	border:none;
+	background-color:#CDE3FE;
+	border:1px solid #fff;
+}
+.table tr{
+	border:none;
+	border-bottom:1px solid #C7C7C7;
+	}
+.table tr td{
+	border:none;
+	border-left:1px solid #C7C7C7;
+}
+.table td{
+	border:#C7C7C7;
+	border-bottom:1px solid #C7C7C7;
 }
 /* course list end*/
 
