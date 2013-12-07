@@ -68,3 +68,38 @@ body {
 	background-repeat: no-repeat;
 	float: right;
 }
+
+/* navi bar start*/
+#navi_list{
+	font:14px verdana, arial, sans-serif;
+	padding:0 0 0 15px;
+	height:30px;
+}
+#navi_list li {
+	display:block;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	list-style:none;
+	padding:0;
+	margin:0 30px 0px 0;
+	height:30px;
+	float:left;
+}
+#navi_list li a{
+	display:block;
+	color:#000;
+	text-decoration:none;
+}
+#navi_list li a:hover{
+	color:#8abe64;
+}
+#navi_list li a.cur_nav{
+	color:#8abe64;
+}
+#navi_list li:not(.navi_img){
+	margin-top:3px;
+}
+#home_img {
+	width:20px;
+	height:20px;
+}
+/* navi bar end*/
