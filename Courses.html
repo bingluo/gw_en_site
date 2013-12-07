@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Courses</title>
+<link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+<script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+<div id="gw_en_wrapper">
+    <div id="gw_en_header">
+        <div id="gw_en_logo"></div>
+        <div id="gw_en_title">SCHOOL OF PUBLIC HEALTH</div>
+        <div class="gw_en_clear"></div>
+    </div>
+    <div id="gw_en_container" class="shadow border">
+		<div id="navibar">
+			<ul id="navi_list">
+				<li class="navi_img"><a href="/"><img id="home_img" src="assets/images/nav-home.png"/></a></li>
+				<li><a href="#" class="cur_nav">Courses</a></li>
+				<li><a href="#">Teachers</a></li>
+				<li><a href="#">Mentors</a></li>
+				<li><a href="#">About SEU</a></li>
+				<li><a href="#">About SPH</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="gw_en_clear"></div>
+		<div id="content_wrap">
+			<div id="courses" class="shadow border">
+				<div id="list_title" >Courses</div>
+				<div class="parent_item cat_root cur_item highlight"><a href="#">Course List</a></div>
+				<div class="cat_root">Public Degree Courses</div>
+					<div class="list_lvl1">Theoretical and Practical Research on socialism with Chinese characteristics</div>
+					<div class="list_lvl1">Master’s Degree English</div>
+					<div class="list_lvl1">Professional English</div>
+				<div class="cat_root">Major Fundamental Courses</div>
+					<div class="list_lvl1">Basic Theory Courses</div>
+						<div class="list_lvl2 highlight">
+							<a href="#">Medicine Statistics(public health)</a>
+						</div>
+						<div class="list_lvl2 highlight">
+							<a href="#">Modern Epidemiology</a>
+						</div>
+					<div class="list_lvl1">Professional Skill Courses</div>
+						<div class="list_lvl2 highlight">
+							<a href="#">Public Health Case</a>
+						</div>
+						<div class="list_lvl2 highlight">
+							<a href="#">Research Methods</a>
+						</div>
+						<div class="list_lvl2 highlight">
+							<a href="#">Health Promotion</a>
+						</div>
+						<div class="list_lvl2 highlight">
+							<a href="#">Management and Health Services Management</a>
+						</div>
+					<div class="list_lvl1">Practical Teaching Series</div>
+						<div class="list_lvl2">Social Practice</div>
+				<div class="cat_root">Major Compulsory Courses</div>
+				<ul>
+					<li>Dialectics of Nature and Scientific Socialism</li>
+					<li>Marxism and Social Science Methodology</li>
+				</ul>
+				<div class="cat_root">Compulsory Training</div>
+				<ul>
+					<li>Lecture Series of Arts and Scientific Quality</li>
+					<li>Academic Seminar & Academic Paper Writing</li>
+				</ul>
+				<div class="parent_item cat_root highlight"><a href="#">Credit requirements</a></div>
+			</div>
+			<div id="content_body">asdfasdf
+			</div>
+			<div class="gw_en_clear"></div>
+		</div>
+    </div>
+</div>
+<div id="gw_en_footer">
+	<div id="gw_en_inner_footer">
+    	<div id="gw_en_footer_text">&copy; 2013 Southeast University. All Rights Reserverd.</div>
+        <div id="gw_en_footer_logo"></div>
+        <div class="gw_en_clear"></div>
+	</div>
+</div>
+</body>
+<script>
+	$(document).ready(function(){
+		var backgroundColorBefore;
+		var colorBefore;
+		$(".highlight").hover(
+			function(){
+				backgroundColorBefore = $(this).css("background-color");
+				colorBefore = $(this).css("color");
+				$(this).css("background-color","#398600");
+				$(this).children().css("color","#fff");
+			},
+			function(){
+				$(this).css("background-color",backgroundColorBefore);
+				$(this).children().css("color",colorBefore);
+			}
+		);
+		$(".highlight a").css("color","#666");
+		$(".cur_item").css("background-color","#398600");
+		$(".cur_item").css("color","#fff");
+		$(".cur_item").children("a").css("color","#fff");
+	});
+</script>
+</html>
