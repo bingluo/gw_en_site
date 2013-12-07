@@ -103,3 +103,28 @@ body {
 	height:20px;
 }
 /* navi bar end*/
+
+/* content start*/
+#content {
+	margin: 10px 30px 30px 30px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:12px;
+}
+#content h1 {
+	font-weight: bold;
+	font-size: 24px; 
+	color: #39863b;
+	margin-bottom: 5px;
+}
+#content h2 {
+	font-weight: bold;
+	font-size:20px;
+}
+#content h3 {
+	font-size:16px;
+}
+#content hr {
+	height: 1px;
+	border: 0;
+	border-bottom: 2px solid #8abe64;
+}
