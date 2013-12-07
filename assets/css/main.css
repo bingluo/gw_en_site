@@ -128,3 +128,10 @@ body {
 	border: 0;
 	border-bottom: 2px solid #8abe64;
 }
+.text-pic-box .text-pic-box-text {
+	width: 500px;
+	float: left;
+}
+.text-pic-box .text-pic-box-pic {
+	float: right;
+/* content end*/
