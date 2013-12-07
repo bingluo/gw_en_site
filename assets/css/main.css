@@ -213,3 +213,16 @@ body {
 	color:#666;
 }
 /* course list end*/
+
+/* mentor table start*/
+.mentor-table {
+	table-layout: fixed;
+}
+.mentor-table td{
+	height: 30px;
+	border-bottom: 1px solid #efefef;
+}
+.mentor-table td a {
+	text-decoration: none;
+}
+/* mentor table end*/
