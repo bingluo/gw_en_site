@@ -158,7 +158,7 @@ body {
 	border-bottom:1px solid #e3e3e3;
 	color:#000;
 }
-#courses div.cat_root:not(.parent_item){
+#courses div.cat_root{
 	padding-top:15px;
 	padding-left:10px;
 	font-size:13px;
@@ -219,24 +219,20 @@ body {
 
 .table{
 	border-collapse: collapse;
-	boder:none;
+	border:1px solid #C7C7C7;
 }
 .table tr th{
-	border:none;
 	background-color:#CDE3FE;
 	border:1px solid #fff;
 }
 .table tr{
-	border:none;
-	border-bottom:1px solid #C7C7C7;
+	border:1px solid #C7C7C7;
 	}
 .table tr td{
-	border:none;
-	border-left:1px solid #C7C7C7;
+	border:1px solid #C7C7C7;
 }
 .table td{
-	border:#C7C7C7;
-	border-bottom:1px solid #C7C7C7;
+	border:1px solid #C7C7C7;
 }
 /* course list end*/
 

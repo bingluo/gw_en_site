@@ -1,16 +1,18 @@
 	$(document).ready(function(){
-		var backgroundColorBefore;
-		var colorBefore;
 		$(".highlight").hover(
 			function(){
-				backgroundColorBefore = $(this).css("background-color");
-				colorBefore = $(this).css("color");
-				$(this).css("background-color","#398600");
-				$(this).children().css("color","#fff");
+				if($(this).hasClass("cur_item")){
+				}else{
+					$(this).css("background-color","#398600");
+					$(this).children().css("color","#fff");
+				}
 			},
 			function(){
-				$(this).css("background-color",backgroundColorBefore);
-				$(this).children().css("color",colorBefore);
+				if($(this).hasClass("cur_item")){
+				}else{
+					$(this).css("background-color","#fff");
+					$(this).children().css("color","#666");
+				}
 			}
 		);
 		$(".highlight a").css("color","#666");

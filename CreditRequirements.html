@@ -36,7 +36,7 @@ width: 630px;
 		<div id="content_wrap">
 			<div id="courses" class="shadow border">
 				<div id="list_title" >Courses</div>
-				<div class="parent_item cat_root highlight"><a href="Courses.html">Course List >></a></div>
+				<div class="parent_item highlight"><a href="Courses.html">Course List >></a></div>
 				<div class="cat_root">Public Degree Courses</div>
 					<div class="list_lvl1">Theoretical and Practical Research on socialism with Chinese characteristics</div>
 					<div class="list_lvl1">Master’s Degree English</div>
@@ -62,7 +62,7 @@ width: 630px;
 					<li>Lecture Series of Arts and Scientific Quality</li>
 					<li>Academic Seminar & Academic Paper Writing</li>
 				</ul>
-				<div class="parent_item cat_root cur_item highlight"><a href="CreditRequirements.html">Credit requirements >></a></div>
+				<div class="parent_item cur_item highlight"><a href="CreditRequirements.html">Credit requirements >></a></div>
 			</div>
 			<div id="content" class="sider_content">
 				<h1>Credit Requirements</h1>
@@ -92,26 +92,4 @@ width: 630px;
 	</div>
 </div>
 </body>
-<script>
-	$(document).ready(function(){
-		var backgroundColorBefore;
-		var colorBefore;
-		$(".highlight").hover(
-			function(){
-				backgroundColorBefore = $(this).css("background-color");
-				colorBefore = $(this).css("color");
-				$(this).css("background-color","#398600");
-				$(this).children().css("color","#fff");
-			},
-			function(){
-				$(this).css("background-color",backgroundColorBefore);
-				$(this).children().css("color",colorBefore);
-			}
-		);
-		$(".highlight a").css("color","#666");
-		$(".cur_item").css("background-color","#398600");
-		$(".cur_item").css("color","#fff");
-		$(".cur_item").children("a").css("color","#fff");
-	});
-</script>
 </html>
